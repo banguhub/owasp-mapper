@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # =============================================================================
-# OWASP Mapper v1.0 | Author: bangfusk
+# OWASP Mapper v1.0 | Author: banghub
 # Web Application Penetration Testing Preparation Tool
+# Linkedin: inkedin.com/in/sabbir-pentester
+# Medium: banghub.medium.com
 # =============================================================================
 
 set -euo pipefail
@@ -39,7 +41,7 @@ print_banner() {
     echo ' ╚██████╔╝╚███╔███╔╝██║  ██║███████║██║         ██║ ╚═╝ ██║██║  ██║██║     ██║     ███████╗██║  ██║'
     echo '  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝         ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝'
     echo -e "${RESET}"
-    echo -e "  ${BOLD}${YELLOW}OWASP Mapper v1.0${RESET}  ${DIM}|  Author: bangfusk  |  Web App PenTest Preparation Tool${RESET}"
+    echo -e "  ${BOLD}${YELLOW}OWASP Mapper v1.0${RESET}  ${DIM}|  Author: banghub  |  Web App PenTest Preparation Tool${RESET}"
     echo -e "  ${RED}[!] For authorized security testing only. Unauthorized use is illegal.${RESET}"
     echo -e "  ${DIM}$(printf '─%.0s' {1..100})${RESET}"
     echo ""
